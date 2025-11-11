@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ayush Raj Khadka | Software Engineer Portfolio</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <!-- ===== Header & Navigation ===== -->
+  <header class="fade-in">
+    <nav class="navbar">
+      <div class="logo">
+        <span class="logo-text">Ayush Raj Khadka</span>
+        <span class="logo-badge">Software Engineer</span>
+      </div>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button class="theme-toggle" onclick="toggleTheme()">
+        <i class="fas fa-moon"></i>
+      </button>
+    </nav>
+  </header>
+
+  <!-- ===== Hero Section ===== -->
+  <section class="hero fade-in">
+    <div class="hero-content">
+      <div class="hero-text">
+        <div class="hero-badge">Software Engineering Student</div>
+        <h1 class="typing">Hi, I'm <span class="highlight">Ayush Raj Khadka</span></h1>
+        <p class="subtitle">
+          Passionate about creating efficient, user-focused applications that merge creativity with functionality.
+        </p>
+        <div class="hero-cta">
+          <a href="https://github.com/ayush00214" target="_blank" class="btn btn-primary">
+            <i class="fab fa-github"></i> GitHub
+          </a>
+          <a href="#projects" class="btn btn-secondary">
+            <i class="fas fa-code"></i> View Projects
+          </a>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <div class="code-window">
+          <div class="window-header">
+            <div class="window-controls">
+              <span class="control red"></span>
+              <span class="control yellow"></span>
+              <span class="control green"></span>
+            </div>
+            <div class="window-title">about_me.py</div>
+          </div>
+          <div class="code-content">
+            <pre><code class="python">class SoftwareEngineer:
+    def __init__(self):
+        self.name = "Ayush Raj Khadka"
+        self.title = "Software Engineering Student"
+        self.skills = ["Python", "Java", "C++", "MySQL", "Firebase"]
+        self.interests = ["Full-Stack Dev", "Problem Solving", "UI/UX"]
+        
+    def build_projects(self):
+        return ["Health Link Nepal", "DisciPlan", "JavaFX Booking System"]
+        
+me = SoftwareEngineer()</code></pre>
+          </div>
+        </div>
+        <div class="profile-container">
+          <div class="profile-image">
+            <img src="https://i.ibb.co/VYr2bw2q/IMG-3682.jpg" alt="Ayush Raj Khadka" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="scroll-indicator">
+      <span>Scroll to explore</span>
+      <i class="fas fa-chevron-down"></i>
+    </div>
+  </section>
+
+  <!-- ===== About Section ===== -->
+  <section id="about" class="section fade-in">
+    <div class="section-header">
+      <h2>About Me</h2>
+      <div class="section-line"></div>
+    </div>
+    <div class="about-content">
+      <div class="about-text">
+        <p>
+          I'm a driven Software Engineering student passionate about creating efficient, user-focused applications that merge creativity with functionality. 
+          With experience in Python, Java, C++, MySQL, Firebase, and MongoDB, I enjoy transforming complex challenges into seamless digital solutions.
+        </p>
+        <p>
+          I've developed several projects including <b>Health Link Nepal</b>, <b>DisciPlan (Self-Care App)</b>, and a <b>JavaFX Ticket Booking System</b> — showcasing expertise in both frontend and backend development.
+        </p>
+        <p>
+          I'm Cisco certified in networking and constantly exploring full-stack development. My goal is to build impactful projects that enhance people's lives through technology.
+        </p>
+        <div class="education">
+          <h3>Education</h3>
+          <div class="education-item">
+            <i class="fas fa-graduation-cap"></i>
+            <div>
+              <h4>Software Engineering</h4>
+              <p>Patan College for Professional Studies (affiliated with University of Bedfordshire, UK)</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="about-stats">
+        <div class="stat">
+          <div class="stat-number">3+</div>
+          <div class="stat-label">Projects Completed</div>
+        </div>
+        <div class="stat">
+          <div class="stat-number">5+</div>
+          <div class="stat-label">Technologies</div>
+        </div>
+        <div class="stat">
+          <div class="stat-number">Cisco</div>
+          <div class="stat-label">Networking Certified</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Skills Section ===== -->
+  <section id="skills" class="section fade-in">
+    <div class="section-header">
+      <h2>Skills & Technologies</h2>
+      <div class="section-line"></div>
+    </div>
+    <div class="skills-container">
+      <div class="skill-category">
+        <h3><i class="fas fa-code"></i> Programming Languages</h3>
+        <div class="skills">
+          <div class="skill-item">
+            <span class="skill-name">Python</span>
+            <div class="skill-bar">
+              <div class="skill-progress" data-level="85"></div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <span class="skill-name">Java</span>
+            <div class="skill-bar">
+              <div class="skill-progress" data-level="80"></div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <span class="skill-name">C++</span>
+            <div class="skill-bar">
+              <div class="skill-progress" data-level="75"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="skill-category">
+        <h3><i class="fas fa-database"></i> Databases</h3>
+        <div class="skills">
+          <div class="skill-item">
+            <span class="skill-name">MySQL</span>
+            <div class="skill-bar">
+              <div class="skill-progress" data-level="80"></div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <span class="skill-name">Firebase</span>
+            <div class="skill-bar">
+              <div class="skill-progress" data-level="75"></div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <span class="skill-name">MongoDB</span>
+            <div class="skill-bar">
+              <div class="skill-progress" data-level="70"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="skill-category">
+        <h3><i class="fas fa-globe"></i> Web Technologies</h3>
+        <div class="skills">
+          <div class="skill-item">
+            <span class="skill-name">HTML/CSS</span>
+            <div class="skill-bar">
+              <div class="skill-progress" data-level="85"></div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <span class="skill-name">JavaScript</span>
+            <div class="skill-bar">
+              <div class="skill-progress" data-level="70"></div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <span class="skill-name">Networking (Cisco)</span>
+            <div class="skill-bar">
+              <div class="skill-progress" data-level="80"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Projects Section ===== -->
+  <section id="projects" class="section fade-in">
+    <div class="section-header">
+      <h2>Featured Projects</h2>
+      <div class="section-line"></div>
+    </div>
+    <div class="projects">
+      <div class="project-card">
+        <div class="project-image">
+          <div class="project-badge">Full Stack</div>
+          <i class="fas fa-heartbeat"></i>
+        </div>
+        <div class="project-content">
+          <h3>Health Link Nepal</h3>
+          <p>A healthcare web platform connecting patients with doctors for online consultations and health record management.</p>
+          <div class="project-tech">
+            <span>Python</span>
+            <span>MySQL</span>
+            <span>HTML/CSS</span>
+          </div>
+        </div>
+      </div>
+      <div class="project-card">
+        <div class="project-image">
+          <div class="project-badge">Mobile App</div>
+          <i class="fas fa-mobile-alt"></i>
+        </div>
+        <div class="project-content">
+          <h3>DisciPlan (Self-Care App)</h3>
+          <p>A mobile app promoting self-care habits, personal health tracking, and daily motivation.</p>
+          <div class="project-tech">
+            <span>Java</span>
+            <span>Firebase</span>
+            <span>Android</span>
+          </div>
+        </div>
+      </div>
+      <div class="project-card">
+        <div class="project-image">
+          <div class="project-badge">Desktop App</div>
+          <i class="fas fa-ticket-alt"></i>
+        </div>
+        <div class="project-content">
+          <h3>JavaFX Ticket Booking System</h3>
+          <p>A real-world ticket booking application with MySQL integration for movies, buses, and events.</p>
+          <div class="project-tech">
+            <span>Java</span>
+            <span>JavaFX</span>
+            <span>MySQL</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Contact Section ===== -->
+  <section id="contact" class="section fade-in">
+    <div class="section-header">
+      <h2>Get In Touch</h2>
+      <div class="section-line"></div>
+    </div>
+    <p class="contact-subtitle">I'm always open to discussing new opportunities and interesting projects.</p>
+    <div class="contact-container">
+      <div class="contact-info">
+        <div class="contact-item">
+          <div class="contact-icon">
+            <i class="fas fa-envelope"></i>
+          </div>
+          <div class="contact-details">
+            <h4>Email</h4>
+            <a href="mailto:ayushrajkhadka00214@gmail.com">ayushrajkhadka00214@gmail.com</a>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="contact-icon">
+            <i class="fab fa-github"></i>
+          </div>
+          <div class="contact-details">
+            <h4>GitHub</h4>
+            <a href="https://github.com/ayush00214" target="_blank">github.com/ayush00214</a>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="contact-icon">
+            <i class="fab fa-instagram"></i>
+          </div>
+          <div class="contact-details">
+            <h4>Instagram</h4>
+            <a href="https://www.instagram.com/ayushh_khadka?igsh=emNzMGM0YmJnOTY5" target="_blank">@ayushh_khadka</a>
+          </div>
+        </div>
+      </div>
+      <div class="contact-cta">
+        <h3>Let's Build Something Amazing Together</h3>
+        <p>Whether you have a project in mind or just want to connect, I'd love to hear from you.</p>
+        <a href="mailto:ayushrajkhadka00214@gmail.com" class="btn btn-primary">
+          <i class="fas fa-paper-plane"></i> Send Message
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Footer ===== -->
+  <footer class="footer fade-in">
+    <div class="footer-content">
+      <div class="footer-logo">
+        <h3>Ayush Raj Khadka</h3>
+        <p>Software Engineering Student</p>
+      </div>
+      <div class="footer-links">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <div class="footer-social">
+        <a href="https://github.com/ayush00214" target="_blank"><i class="fab fa-github"></i></a>
+        <a href="https://www.instagram.com/ayushh_khadka?igsh=emNzMGM0YmJnOTY5" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="mailto:ayushrajkhadka00214@gmail.com"><i class="fas fa-envelope"></i></a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2025 Ayush Raj Khadka | Crafted with passion 💻✨</p>
+    </div>
+  </footer>
+</body>
+</html>
